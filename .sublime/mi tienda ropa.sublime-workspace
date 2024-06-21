@@ -1,0 +1,780 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"far",
+				"fara3.jpg"
+			],
+			[
+				"fa",
+				"farandula/"
+			],
+			[
+				"pol",
+				"pol3.jpg"
+			],
+			[
+				"poli",
+				"politica/"
+			],
+			[
+				"polic",
+				"politica/"
+			],
+			[
+				"fut",
+				"fut3.jpg"
+			],
+			[
+				"ca",
+				"carne.jpg"
+			],
+			[
+				"cont",
+				"contrabando.jpg"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"wh",
+				"width"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"crip",
+				"criptomoneda.jpg"
+			],
+			[
+				"no",
+				"noticias/"
+			],
+			[
+				"D",
+				"Deporte"
+			],
+			[
+				"ce",
+				"centrado"
+			],
+			[
+				"mi",
+				"mifoto.png"
+			],
+			[
+				"a",
+				"años"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"trans",
+				"translate()"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"sub",
+				"submitBtn"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"inpu",
+				"input"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"fr",
+				"form"
+			],
+			[
+				"displa",
+				"display"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"cel",
+				"cellspacing"
+			],
+			[
+				"E",
+				"height"
+			],
+			[
+				"san",
+				"sandia.png"
+			],
+			[
+				"gree",
+				"darkgreen"
+			],
+			[
+				"yello",
+				"lightgoldenrodyellow"
+			],
+			[
+				"na",
+				"naranja.jpg"
+			],
+			[
+				"man",
+				"manzana.jpg"
+			],
+			[
+				"im",
+				"img/"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"htm",
+				"html\thtml"
+			],
+			[
+				"Num",
+				"NumAleatorio"
+			],
+			[
+				"S",
+				"System"
+			],
+			[
+				"el",
+				"elif\telse if"
+			],
+			[
+				"ent",
+				"entrada"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"s",
+				"Scanner"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "/*\n\nTemplateMo 559 Zay Shop\n\nhttps://templatemo.com/tm-559-zay-shop\n\n---------------------------------------------\nTable of contents\n------------------------------------------------\n1. Typography\n2. General\n3. Nav\n4. Hero Carousel\n5. Accordion\n6. Shop\n7. Product\n8. Carousel Hero\n9. Carousel Brand\n10. Services\n11. Contact map\n12. Footer\n13. Small devices (landscape phones, 576px and up)\n14. Medium devices (tablets, 768px and up)\n15. Large devices (desktops, 992px and up)\n16. Extra large devices (large desktops, 1200px and up)\n--------------------------------------------- */\n\n\n\n\n/* Typography */\nbody, ul, li, p, a, label, input, div {\n  font-family: 'Roboto', sans-serif;\n  font-size: 18px !important;\n  font-weight: 300 !important;\n}\n.h1 {\n  font-family: 'Roboto', sans-serif;\n  font-size: 48px !important;\n  font-weight: 200 !important;\n}\n.h2 {\n  font-family: 'Roboto', sans-serif;\n  font-size: 30px !important;\n  font-weight: 300;\n}\n.h3 {\n  font-family: 'Roboto', sans-serif;\n  font-size: 22px !important;\n}\n/* General */\n.logo { font-weight: 500 !important;}\n.text-warning {  color: #ede861 !important;}\n.text-muted { color: #bcbcbc !important;}\n.text-success { color: #59ab6e !important;}\n.text-light { color: #cfd6e1 !important;}\n.bg-dark { background-color: #212934 !important;}\n.bg-light { background-color: #e9eef5 !important;}\n.bg-black { background-color: #1d242d !important;}\n.bg-success { background-color: #59ab6e !important;}\n.btn-success {\n  background-color: #59ab6e !important;\n  border-color: #56ae6c !important;\n}\n.pagination .page-link:hover {color: #000;}\n.pagination .page-link:hover, .pagination .page-link.active {\n  background-color: #69bb7e;\n  color: #fff;\n}\n/* Nav */\n#templatemo_nav_top { min-height: 40px;}\n#templatemo_nav_top * { font-size: .9em !important;}\n#templatemo_main_nav a { color: #212934;}\n#templatemo_main_nav a:hover { color: #69bb7e;}\n#templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}\n\n/* Hero Carousel */\n#template-mo-zay-hero-carousel { background: #191919 !important;}\n/* Accordion */\n.templatemo-accordion a { color: #000;}\n.templatemo-accordion a:hover { color: #333d4a;}\n/* Shop */\n.shop-top-menu a:hover { color: #69bb7e !important;}\n/* Product */\n.product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}\n.product-wap .product-color-dot.color-dot-red { background:#f71515;}\n.product-wap .product-color-dot.color-dot-blue { background:#6db4fe;}\n.product-wap .product-color-dot.color-dot-black { background:#000000;}\n.product-wap .product-color-dot.color-dot-light { background:#e0e0e0;}\n.product-wap .product-color-dot.color-dot-green { background:#0bff7e;}\n.card.product-wap .card .product-overlay {\n  background: rgba(0,0,0,.2);\n  visibility: hidden;\n  opacity: 0;\n  transition: .3s;\n}\n.card.product-wap:hover .card .product-overlay {\n  visibility: visible;\n  opacity: 1;\n}\n.card.product-wap a { color: #000;}\n#carousel-related-product .slick-slide:focus { outline: none !important;}\n#carousel-related-product .slick-dots li button:before {\n  font-size: 15px;\n  margin-top: 20px;\n}\n/* Brand */\n.brand-img {\n  filter: grayscale(100%);\n  opacity: 0.5;\n  transition: .5s;\n}\n.brand-img:hover {\n  filter: grayscale(0%);\n  opacity: 1;\n}\n/* Carousel Hero */\n#template-mo-zay-hero-carousel .carousel-indicators li {\n  margin-top: -50px;\n  background-color: #59ab6e;\n}\n#template-mo-zay-hero-carousel .carousel-control-next i,\n#template-mo-zay-hero-carousel .carousel-control-prev i {\n  color: #59ab6e !important;\n  font-size: 2.8em !important;\n}\n/* Carousel Brand */\n.tempaltemo-carousel .h1 {\n  font-size: .5em !important;\n  color: #000 !important;\n}\n/* Services */\n.services-icon-wap {transition: .3s;}\n.services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}\n.services-icon-wap:hover {background: #69bb7e;}\n/* Contact map */\n.leaflet-control a, .leaflet-control { font-size: 10px !important;}\n.form-control { border: 1px solid #e8e8e8;}\n/* Footer */\n#tempaltemo_footer a { color: #dcdde1;}\n#tempaltemo_footer a:hover { color: #68bb7d;}\n#tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}\n#tempaltemo_footer ul.footer-icons li {\n  width: 2.6em;\n  height: 2.6em;\n  line-height: 2.6em;\n}\n#tempaltemo_footer ul.footer-icons li:hover {\n  background-color: #cfd6e1;\n  transition: .5s;\n}\n#tempaltemo_footer ul.footer-icons li:hover i {\n  color: #212934;\n  transition: .5s;\n}\n#tempaltemo_footer .border-light { border-color: #2d343f !important;}\n/*\n// Extra small devices (portrait phones, less than 576px)\n// No media query since this is the default in Bootstrap\n*/\n/* Small devices (landscape phones, 576px and up)*/\n.product-wap .h3, .product-wap li, .product-wap i, .product-wap p {\n  font-size: 12px !important;\n}\n.product-wap .product-color-dot {\n  width: 6px;\n  height: 6px;\n}\n\n@media (min-width: 576px) {\n  .tempaltemo-carousel .h1 { font-size: 1em !important;}\n}\n\n/*// Medium devices (tablets, 768px and up)*/\n@media (min-width: 768px) {\n  #templatemo_main_nav .navbar-nav {max-width: 450px;}\n }\n\n/* Large devices (desktops, 992px and up)*/\n@media (min-width: 992px) {\n  #templatemo_main_nav .navbar-nav {max-width: 550px;}\n  #template-mo-zay-hero-carousel .carousel-item {min-height: 30rem !important;}\n  .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}\n  .product-wap .product-color-dot {\n    width: 12px;\n    height: 12px;\n  }\n}\n\n/* Extra large devices (large desktops, 1200px and up)*/\n@media (min-width: 1200px) {}\n",
+			"file": "/C/Users/ezequ/OneDrive/Escritorio/zay-shop/mi tienda ropa/assets/css/templatemo.css",
+			"file_size": 5656,
+			"file_write_time": 133627703014170179,
+			"redo_stack":
+			[
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": "fff"
+					},
+					"BAAAACwGAAAAAAAALAYAAAAAAAABAAAAZisGAAAAAAAAKwYAAAAAAAABAAAAZisGAAAAAAAALgYAAAAAAAAAAAAAKgYAAAAAAAAqBgAAAAAAAAEAAABm",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAALQYAAAAAAAAtBgAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 5465,
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"insert",
+					{
+						"characters": "x"
+					},
+					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					2,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAeA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"paste",
+					null,
+					"AgAAAN8HAAAAAAAA5QcAAAAAAAAAAAAA5QcAAAAAAADlBwAAAAAAAAYAAABlZmVmZWY",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA3wcAAAAAAADlBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"color_pick",
+					null,
+					"AQAAAN4HAAAAAAAA5QcAAAAAAAAHAAAAIzJFMkUyRQ",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAA3wcAAAAAAADlBwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "/C/Users/ezequ/OneDrive/Escritorio/zay-shop/mi tienda ropa/index.html",
+			"settings":
+			{
+				"buffer_size": 23152,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/ezequ/OneDrive/Escritorio/zay-shop/mi tienda ropa",
+		"/C/Users/ezequ/OneDrive/Escritorio/zay-shop/mi tienda ropa/assets"
+	],
+	"file_history":
+	[
+		"/C/Users/ezequ/OneDrive/Escritorio/zay-shop/mi tienda ropa/assets/webfonts/fa-regular-400.ttf",
+		"/C/Users/ezequ/OneDrive/Escritorio/Blog/contacto.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/Blog/horoscopo.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/Blog/farandula.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/Blog/politicas.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/Blog/deportes.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/Blog/noticias.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/Blog/index.html",
+		"/E/LG Smart TV/TN/INFO",
+		"/C/Users/ezequ/OneDrive/Escritorio/Blog/index.css",
+		"/C/Users/ezequ/OneDrive/Escritorio/Blog/deporte.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/pagina basica/estilos.css",
+		"/C/Users/ezequ/OneDrive/Escritorio/Pagina1/index.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/pagina basica/notas",
+		"/C/Users/ezequ/OneDrive/Escritorio/pagina basica/index.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/pagina basica/CMX218_ Página Web.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/ingreso/registro.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/ingreso/index.css",
+		"/C/Users/ezequ/OneDrive/Escritorio/Pagina1/index.css",
+		"/C/Users/ezequ/OneDrive/Escritorio/Pagina1/registro.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/Pagina1/cuerpo.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/Pagina1/tablas.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/Pagina1/tablas2.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/Pagina1/tablas3.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/Pagina1/misestilos.css/misestilos.css",
+		"/C/Users/ezequ/OneDrive/Escritorio/Tarea 051024/index.html",
+		"/C/Users/ezequ/OneDrive/Escritorio/Tarea 051024/img/manzana.jpg",
+		"/C/Users/ezequ/OneDrive/Escritorio/Pagina1/imagen/banana.jpg",
+		"/C/Users/ezequ/OneDrive/Escritorio/Pagina1/.sublime/Pagina1.sublime-project",
+		"/C/Users/ezequ/OneDrive/Escritorio/proyecto Sublime/Practica JS/ContadorDigitos.java",
+		"/C/Users/ezequ/OneDrive/Escritorio/proyecto Sublime/Practica JS/calculadora.java",
+		"/C/Users/ezequ/OneDrive/Escritorio/proyecto Sublime/Practica JS/Primos.java",
+		"/C/Users/ezequ/OneDrive/Escritorio/proyecto Sublime/Practica JS/TablasMultiplicar.java",
+		"/C/Users/ezequ/OneDrive/Escritorio/proyecto Sublime/Practica JS/JuegoAleatorio.java",
+		"/C/Users/ezequ/OneDrive/Escritorio/proyecto Sublime/Practica JS/Positivo.java",
+		"/C/Users/ezequ/OneDrive/Escritorio/proyecto Sublime/Practica JS/HolaMundo.java",
+		"/C/Users/ezequ/OneDrive/Escritorio/Practica JS/Algoritmo_1",
+		"/C/Users/ezequ/OneDrive/Escritorio/Practica JS/HolaMundo.java",
+		"/C/Users/ezequ/OneDrive/Escritorio/Practica JS/Positivo.java",
+		"/C/Users/ezequ/OneDrive/Escritorio/Practica JS/python.py",
+		"/C/Users/ezequ/AppData/Roaming/Sublime Text/Packages/User/A File Icon.sublime-settings",
+		"/C/Users/ezequ/AppData/Roaming/Sublime Text/Packages/A File Icon/A File Icon.sublime-settings",
+		"/C/Users/ezequ/OneDrive/Escritorio/Practica JS/proyecto Sublime/tarea1"
+	],
+	"find":
+	{
+		"height": 27.2
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/ezequ/OneDrive/Escritorio/zay-shop/mi tienda ropa/assets/css/templatemo.css",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1578,
+								1581
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1582,
+										1583
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1569,
+										1570
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_helper.box_height": 18,
+							"color_helper.color_scheme": "Monokai Gravity.sublime-color-scheme",
+							"color_helper.refresh": false,
+							"color_helper.scan":
+							{
+								"allow_scanning": true,
+								"color_class":
+								[
+									{
+										"class": "css-level-4",
+										"scopes": ""
+									}
+								],
+								"color_trigger": "(?xi)\n(?:\n    \\b(?<![-#&$])(?:\n        color\\((?!\\s*-)|(?:hsla?|(?:ok)?(?:lch|lab)|hwb|rgba?)\\(\n) |\n\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?<![&])\\#)\n",
+								"current_ext": ".css",
+								"current_syntax": "CSS/CSS",
+								"enabled": true,
+								"last_updated": 1718900769.93,
+								"scanning": "meta.declaration-list.css -support.type.property-name.css -comment -string,meta.property-value.css -comment -string,meta.value.css -comment -string,meta.tag.inline.any.html string.quoted -constant.character.entity.html,meta.tag.any.html meta.attribute-with-value.style.html"
+							},
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/ezequ/OneDrive/Escritorio/zay-shop/mi tienda ropa/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								863,
+								863
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_helper.box_height": 18,
+							"color_helper.color_scheme": "Monokai Gravity.sublime-color-scheme",
+							"color_helper.refresh": false,
+							"color_helper.scan":
+							{
+								"allow_scanning": true,
+								"color_class":
+								[
+									{
+										"class": "css-level-4",
+										"scopes": ""
+									}
+								],
+								"color_trigger": "(?xi)\n(?:\n    \\b(?<![-#&$])(?:\n        color\\((?!\\s*-)|(?:hsla?|(?:ok)?(?:lch|lab)|hwb|rgba?)\\(\n) |\n\\b(?<![-#&$])[\\w]{3,}(?![(-])\\b|(?<![&])\\#)\n",
+								"current_ext": ".html",
+								"current_syntax": "HTML/HTML",
+								"enabled": true,
+								"last_updated": 1718900769.93,
+								"scanning": "meta.declaration-list.css -support.type.property-name.css -comment -string,meta.property-value.css -comment -string,meta.value.css -comment -string,meta.tag.inline.any.html string.quoted -constant.character.entity.html,meta.tag.any.html meta.attribute-with-value.style.html"
+							},
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 447.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.2
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mi tienda ropa.sublime-project",
+	"replace":
+	{
+		"height": 51.2
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.8,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 381.6
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
