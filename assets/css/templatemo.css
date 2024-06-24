@@ -78,14 +78,17 @@ body, ul, li, p, a, label, input, div {
 
 /* Hero Carousel */
 
- #template-mo-zay-hero-carousel { background: #191919 !important;} 
-/*.fondoDiapositiva1{
-  background-image: url('assets/img/banner_img_01.jpg');  Cambia 'ruta/a/tu/imagen.jpg' por la ruta de tu imagen 
-  background-size: cover;  Ajusta la imagen para cubrir toda el área del fondo 
-  background-repeat: no-repeat;  Evita que la imagen se repita 
-  background-position: center;
-  padding: auto;
-} */
+ #template-mo-zay-hero-carousel {background: #191919 !important;} 
+
+.fondoDiapositiva1{
+  background-image: url('assets/img/banner_img_01.jpg'); /* Cambia 'ruta/a/tu/imagen.jpg' por la ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen */
+    height: 100vh; /* Asegura que el div ocupe al menos la altura total de la ventana */
+    width: 100%;
+  
+}
 /* Accordion */
 .templatemo-accordion a { color: #000;}
 .templatemo-accordion a:hover { color: #333d4a;}
