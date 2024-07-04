@@ -1,20 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Background Example</title>
-    <style>
-        .fondo-especial {
-            background-color: lightgreen; /* Fondo de color sólido */
-            padding: 20px; /* Espaciado interno para el contenido */
-        }
-    </style>
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="fondo-especial">
-        <h1>Este div tiene un fondo especial</h1>
-    </div>
+    <header>
+        <h1>Tu Tienda de Ropa</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="shop.html">Tienda</a></li>
+                <li><a href="cart.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Catálogo de Productos</h2>
+        <div class="product">
+            <p>Producto 1</p>
+            <span>$20.00</span>
+            <button class="add-to-cart" data-name="Producto 1" data-price="20.00">Agregar al Carrito</button>
+        </div>
+        <div class="product">
+            <p>Producto 2</p>
+            <span>$30.00</span>
+            <button class="add-to-cart" data-name="Producto 2" data-price="30.00">Agregar al Carrito</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tu Tienda de Ropa</p>
+    </footer>
+
+    <script src="catalog.js"></script>
 </body>
 </html>
+
 
